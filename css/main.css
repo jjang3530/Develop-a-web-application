@@ -1,0 +1,162 @@
+﻿/* 
+ * main.css
+ * Assignment4: common stylesheet for all page
+ *
+ * Revision History
+ *       group8, 2017.07.20: Created
+ */
+/* tag style start */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1024px;
+    background-color: white;
+    margin: 0 auto;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+header {
+    margin-top: 30px;
+}
+
+footer {
+	margin-bottom: 30px;
+}
+
+footer p {
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+}
+/* tag style end */
+
+
+/* class style start */
+.leftCol {
+    width: 100px;
+    float: left;
+    padding: 0 12px;
+}
+.leftMenu {
+    margin:0 auto;
+}
+
+.rightCol {
+    width: 880px;
+    float: right;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.btnSizeS {
+    width: 100px;
+    height: 20px;
+}
+
+.btnSizeM {
+    width: 150px;
+    height: 30px;
+}
+
+.btnSizeL {
+    width: 250px;
+    height: 30px;
+}
+
+.line {
+    margin: 20px 0;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.widthXXS {
+    width: 30px;
+}
+
+.widthXS {
+    width: 50px;
+}
+
+.widthS{
+    width: 100px;
+}
+
+.widthM{
+    width: 120px;
+}
+
+.widthL{
+    width: 200px;
+}
+
+.invisible {
+    display: none;
+}
+
+.red {
+	color: red;
+}
+
+.copyright{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.5em;
+}
+
+.message{
+	border: 2px solid red;
+	color: red;
+	font-weight: bold;
+	text-align: left;
+	margin-bottom: 20px;
+	padding: 10px 50px;
+}
+
+.leftAlign{
+	align : left;
+}
+
+.tblHeader{
+	height: 50px;
+}
+
+.total {
+    height:50px;
+}
+
+.center{
+	font-align : center;
+}	
+
+.bold{
+	font-weight: bold;
+}
+.blue{
+	color:blue;
+}
+
+
+/* class style end */
+
+/* id style start */
+#titleImg  {
+    margin-left: 400px;
+}
+
+#logoImg {
+    margin-left: 5px;
+}
+	
+#progressbar{
+	margin: 20px;
+}
+/* id style end */

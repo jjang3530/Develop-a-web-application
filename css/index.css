@@ -1,0 +1,82 @@
+﻿/* 
+ * index.css
+ * Assignment4: stylesheet for index page
+ *
+ * Revision History
+ *       group8, 2017.07.20: Created
+ */
+/* class style start */
+.subTbl {
+    width: 210px;
+    margin: 0 5px 10px 5px;
+    padding: 10px 5px;
+    border: 1px solid silver;
+}
+
+.subTbl td {
+    padding: 5px 0;
+}
+
+.img_small {
+    width: 150px;
+	height: 190px;
+    margin: 0 auto 5px;
+}
+
+.buttonTd {
+    width: 300px;
+}
+
+.star {
+    width: 20px;
+}
+
+.relative {
+	position: relative;
+}
+
+.img_large {
+	border: 3px solid #dee6f2;
+	width: 250px;
+	height: 300px;
+	float: none;
+	position: absolute;
+	top: -20%;
+	left: -15%;
+}
+
+.divDetail {
+	border: 3px solid #dee6f2;
+	padding: 10px;
+	float: none;
+	position: absolute;
+	top: -300%;
+	background-color: #edeff2;
+	color: #032b68;
+}
+
+.ckbOrder {
+	margin-right: 20px;
+}
+/* class style end */
+
+
+/* id style start */
+#buttonTbl {
+    width: 884px;
+}
+
+#buttonArea {
+	width: 890px;
+    margin: 10px 0;
+}
+
+#showMore {
+    margin: 0 auto;
+}
+
+#order {
+    margin-left: 152px;
+}
+/* id style end */
+

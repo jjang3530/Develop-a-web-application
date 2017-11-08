@@ -1,0 +1,233 @@
+﻿/* 
+ * confirm.css
+ * Assignment4: stylesheet for confirm page
+ *
+ * Revision History
+ *       group8, 2017.07.20: Created
+ */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1024px;
+    background-color: white;
+    margin: 0 auto;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    margin-top: 10px;
+}
+
+header img {
+
+
+}
+
+main {
+    
+}
+
+footer {
+    /*border-top: 1px solid black;
+    */
+}
+
+footer p {
+    padding: 20px;
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+}
+
+#topLeft {
+    width: 100px;
+    float: left;
+    
+}
+
+#topRight {
+    width: 924px;
+    float: right;
+    text-align: center;
+}
+
+#titleImg  {
+    margin-left: 400px;
+}
+#logoImg {
+    margin-left: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+input[type=text]{
+	width: 300px;
+    padding: 5px;
+}
+label {
+    padding-left: 20px;
+    padding-right: 15px;
+}
+#errorArea{
+	font-size: 100%;
+	color: red;
+	margin: 20px;
+	padding-left: 25px;
+	line-height:150%;
+	border: 1px solid red;
+	display: none;
+}
+
+#fieldset{
+	padding: 10px;
+    padding-left: 50px;
+	margin: 10px;
+	border: 2px solid #C0C0C0;
+}
+
+#legend{
+	font-size: 1.5em;
+}
+
+#province{
+    padding: 5px;
+}
+
+#back{
+	width: 100px;
+    height: 35px;
+	margin: 10px;
+}
+
+#checkout{
+	width: 200px;
+    height: 35px;
+	margin-left: 690px;
+}
+
+.itemListTbl {
+	margin: 10px;
+}
+
+#items table {
+	border: 1px solid #C0C0C0;
+	border-collapse: collapse;
+}
+#items th {
+	border: 1px solid #C0C0C0;
+	border-collapse: collapse;
+}
+
+#items td {
+	border: 1px solid #C0C0C0;
+	border-collapse: collapse;
+}
+
+		/*
+.itemTh {
+	width: 518px;
+    padding-left: 20px;
+}
+.quantityTh {
+	
+}
+.priceTh {
+	width: 120px;
+}
+.totalTh {
+	width: 120px;
+}
+*/
+			
+.itemTh {
+	width: 520px;
+    padding-left: 20px;
+}
+.quantityTh {
+	width: 120px;
+}
+.priceTh {
+	width: 120px;
+}
+.TotalTh {
+	width: 120px;
+}
+.shippingTh {
+	width: 820px;
+    text-align: left;
+    padding-left: 20px;
+}
+.costTh {
+	width: 120px;
+}
+
+	
+
+
+.shippingCostTbl{
+	border-collapse: collapse;
+}
+
+.shippingCostTbl tr
+{
+	height: 50px;
+}
+
+.shippingCostTbl td
+{
+	border: 1px solid #C0C0C0;
+	border-collapse: collapse;
+	width: 120px;
+	text-align: center;
+}
+
+.shippingCostTbl .shippingTd {
+	width: 570px;
+    text-align: left;
+	padding-left: 100px;
+}
+
+
+#orderItem {
+    text-align: center;
+}
+
+
+#sumCost {
+    margin-left:20px;
+    width: 120px;
+    border: 0;
+    text-align: right;
+    font-weight: bold;
+    font-size: large;
+}
+
+#itemTotal {
+    padding-left: 700px;
+    font-weight: bold;
+    font-size: large;
+}
+
+#progressbar{
+	margin: 20px;
+}
+
+#amount{
+    margin-left: 720px;
+    font-weight: bold;
+    font-size: 1.2em;
+	color: red;
+	
+
+}
+#amount td{
+    padding-right: 20px;
+    padding-bottom: 5px;
+	text-align: right;
+}

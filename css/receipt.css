@@ -1,0 +1,195 @@
+﻿/* 
+ * receipt.css
+ * Assignment4: stylesheet for receipt page
+ *
+ * Revision History
+ *       group8, 2017.07.20: Created
+ */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1024px;
+    background-color: white;
+    margin: 0 auto;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    margin-top: 10px;
+}
+
+header img {
+
+
+}
+
+main {
+    
+}
+
+footer {
+    /*border-top: 1px solid black;
+    */
+}
+
+footer p {
+    padding: 20px;
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+}
+
+#topLeft {
+    width: 100px;
+    float: left;
+    
+}
+
+#topRight {
+    width: 924px;
+    float: right;
+    text-align: center;
+}
+
+#titleImg  {
+    margin-left: 400px;
+}
+#logoImg {
+    margin-left: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+input[type=text]{
+	width: 300px;
+    padding: 5px;
+}
+label {
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+#province{
+    padding: 5px;
+}
+
+#back{
+	width: 100px;
+    height: 35px;
+	margin: 10px;
+}
+
+#checkout{
+	width: 200px;
+    height: 35px;
+	margin-left: 690px;
+}
+
+
+#shippingInfo{
+	padding-left: 20px;
+}
+
+#items{
+	padding-left: 20px;
+}
+
+.itemListTbl {
+	border: 1px solid #C0C0C0;
+	border-collapse: collapse;
+	margin-left: 30px;
+	
+}
+.itemListTbl tr{
+	height: 50px;
+}
+
+.itemListTbl th, .itemListTbl td{
+	border: 1px solid #C0C0C0;
+	border-collapse: collapse;
+}
+		
+.itemTh {
+	width: 580px;
+   
+}
+.quantityTh {
+	width: 120px;
+}
+.priceTh {
+	width: 120px;
+}
+.TotalTh {
+	width: 120px;
+}
+.shippingTh {
+	width: 820px;
+    text-align: left;
+    padding-left: 20px;
+}
+.costTh {
+	width: 120px;
+}
+
+
+div h3 {
+	margin: 10px 0;
+}
+
+
+#orderItem {
+    text-align: center;
+}
+
+#sumCost {
+    margin-left:20px;
+    width: 120px;
+    border: 0;
+    text-align: right;
+    font-weight: bold;
+    font-size: large;
+}
+
+#itemTotal {
+    padding-left: 700px;
+    font-weight: bold;
+}
+
+#progressbar{
+	margin: 20px;
+}
+
+#amount{
+
+	border: none;
+	margin-left: 750px;
+}
+#amount tr{
+	height: 30px;
+}
+
+#amount td{
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.textRight {
+	text-align: right;
+}
+
+.receiptDiv{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.1em;
+	margin-bottom: 30px;
+}
+
+#receiptAddr {
+	margin-left: 150px;
+}
